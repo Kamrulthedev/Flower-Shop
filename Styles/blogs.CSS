@@ -55,3 +55,14 @@ img{
 .instagram{
     font-size: 70px;
 }
+input{
+    font-size: larger;
+}
+select{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
