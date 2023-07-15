@@ -1,0 +1,36 @@
+.hader {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.div {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.img {
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+nav {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+}
