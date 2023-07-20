@@ -1,68 +1,126 @@
-.hader {
-    background: rgba(229, 84, 115, 0.10);
+.header {
+    background: rgba(238, 47, 92, 0.1);
 }
 
-.div {
-    color: #272727;
-    font-family: Lato;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+.content {
+    display: flex;
 }
 
-.img {
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 635px;
-    height: 800px;
+.headerTitle {
+    font-size: 60px;
+    padding-left: 40px;
+
+}
+
+.headerDes {
+    padding-left: 40px;
+}
+
+.ShopNow {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+    color: white;
+}
+
+.FeaturedBio {
+    align-items: center;
+    text-align: center;
+}
+
+.FeaturedTitle {
+    font-size: 40px;
+}
+
+.FeaturedImg {
+    display: flex;
+}
+
+.FeaturedImg img {
+    width: 380px;
+    margin-left: 10px;
+    height: 500px;
     flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    border: 1px solid #000;
+    background: rgba(5, 151, 160, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.img {
-    border-radius: 8px;
-    background: #E55473;
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-nav {
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    width: 1440px;
+.info {
+    display: flex;
+    width: 1000px;
     height: 320px;
     flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-img{
+
+.item {
+    padding-left: 50px;
+}
+
+.hotDeal {
+    width: 1200px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #de8497;
+}
+
+.hotDeal {
     display: flex;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    justify-content: center;
+    align-items: center;
 }
-.h1{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.InstagramTitle {
+    text-align: center;
 }
-img{
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin: 20px;
-    display: flex;
+
+.InstagramImg img {
+    width: 280px;
+    height: 396px;
+    flex-shrink: 0;
 }
-.instagram{
-    font-size: 70px;
+
+.inputFiled {
+    width: 1210px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url('/image/Rectangle\ 9.png');
 }
-input{
-    font-size: larger;
+
+.InputInfo {
+    text-align: center;
+    padding-top: 100px;
 }
-select{
-    color: #FFF;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.input {
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+footer {
+    background: #000;
+    width: 1210px;
+    height: 449px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding-top: 50px;
+}
+.footerTitle{
+    color: #E55473;
+    
 }
